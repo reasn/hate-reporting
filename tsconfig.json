@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "declaration": false,
+    "rootDir": "./src",
+    "sourceRoot": "./src",
+    "outDir": "./dist",
+    "pretty": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./neo4j"
+    ],
+    "lib": [
+      "es2015",
+      "es2017"
+    ]
+  },
+  "exclude": [
+    ".idea",
+    "_builds",
+    "_cache",
+    "_steps",
+    ".wercker",
+    "data",
+    "dist",
+    "node_modules"
+  ]
+}
